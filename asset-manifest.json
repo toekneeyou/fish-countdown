@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/fish-countdown/static/css/main.5f361e03.chunk.css",
+    "main.js": "/fish-countdown/static/js/main.1cfd4bb4.chunk.js",
+    "main.js.map": "/fish-countdown/static/js/main.1cfd4bb4.chunk.js.map",
+    "runtime-main.js": "/fish-countdown/static/js/runtime-main.affa47a4.js",
+    "runtime-main.js.map": "/fish-countdown/static/js/runtime-main.affa47a4.js.map",
+    "static/js/2.948a66d2.chunk.js": "/fish-countdown/static/js/2.948a66d2.chunk.js",
+    "static/js/2.948a66d2.chunk.js.map": "/fish-countdown/static/js/2.948a66d2.chunk.js.map",
+    "index.html": "/fish-countdown/index.html",
+    "precache-manifest.ab12fc58153569e1809a5f4a7b05168e.js": "/fish-countdown/precache-manifest.ab12fc58153569e1809a5f4a7b05168e.js",
+    "service-worker.js": "/fish-countdown/service-worker.js",
+    "static/css/main.5f361e03.chunk.css.map": "/fish-countdown/static/css/main.5f361e03.chunk.css.map",
+    "static/js/2.948a66d2.chunk.js.LICENSE.txt": "/fish-countdown/static/js/2.948a66d2.chunk.js.LICENSE.txt",
+    "static/media/logo.svg": "/fish-countdown/static/media/logo.5d5d9eef.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.affa47a4.js",
+    "static/js/2.948a66d2.chunk.js",
+    "static/css/main.5f361e03.chunk.css",
+    "static/js/main.1cfd4bb4.chunk.js"
+  ]
+}
