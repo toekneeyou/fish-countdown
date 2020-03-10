@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "a9245c7509a2b380cdea3d990efa1004",
+    "revision": "5e3005c319480ba0eb0e105285824045",
     "url": "/fish-countdown/index.html"
   },
   {
-    "revision": "11da0214d710f3c2a350",
+    "revision": "1a467d3e22d47e4cd3e2",
     "url": "/fish-countdown/static/css/main.87c2c9af.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/fish-countdown/static/js/2.df925b46.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "11da0214d710f3c2a350",
-    "url": "/fish-countdown/static/js/main.e7df97f1.chunk.js"
+    "revision": "1a467d3e22d47e4cd3e2",
+    "url": "/fish-countdown/static/js/main.a73d0a61.chunk.js"
   },
   {
     "revision": "ee2aaa9b7aea3f4753ab",
