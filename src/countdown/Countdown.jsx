@@ -3,7 +3,6 @@ import { DateTime, Duration } from "luxon";
 
 import "./countdown.css";
 import CountdownDisplay from "./CountdownDisplay";
-import picture from "./tony-coffee.jpeg";
 
 const Countdown = () => {
   const [day, changeDay] = useState(null);
