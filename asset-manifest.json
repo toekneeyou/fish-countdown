@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/fish-countdown/static/css/main.ea950b93.chunk.css",
-    "main.js": "/fish-countdown/static/js/main.5b8fcd11.chunk.js",
-    "main.js.map": "/fish-countdown/static/js/main.5b8fcd11.chunk.js.map",
+    "main.js": "/fish-countdown/static/js/main.b7c264f2.chunk.js",
+    "main.js.map": "/fish-countdown/static/js/main.b7c264f2.chunk.js.map",
     "runtime-main.js": "/fish-countdown/static/js/runtime-main.affa47a4.js",
     "runtime-main.js.map": "/fish-countdown/static/js/runtime-main.affa47a4.js.map",
     "static/js/2.df925b46.chunk.js": "/fish-countdown/static/js/2.df925b46.chunk.js",
     "static/js/2.df925b46.chunk.js.map": "/fish-countdown/static/js/2.df925b46.chunk.js.map",
     "index.html": "/fish-countdown/index.html",
-    "precache-manifest.2aae1ae8717cbe22dd397c9eb7fe1a5c.js": "/fish-countdown/precache-manifest.2aae1ae8717cbe22dd397c9eb7fe1a5c.js",
+    "precache-manifest.8fe35690014f07e1451b5bb487c2077a.js": "/fish-countdown/precache-manifest.8fe35690014f07e1451b5bb487c2077a.js",
     "service-worker.js": "/fish-countdown/service-worker.js",
     "static/css/main.ea950b93.chunk.css.map": "/fish-countdown/static/css/main.ea950b93.chunk.css.map",
     "static/js/2.df925b46.chunk.js.LICENSE.txt": "/fish-countdown/static/js/2.df925b46.chunk.js.LICENSE.txt",
@@ -18,6 +18,6 @@
     "static/js/runtime-main.affa47a4.js",
     "static/js/2.df925b46.chunk.js",
     "static/css/main.ea950b93.chunk.css",
-    "static/js/main.5b8fcd11.chunk.js"
+    "static/js/main.b7c264f2.chunk.js"
   ]
 }
