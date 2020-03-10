@@ -1,6 +1,6 @@
 import React from "react";
 
-const CountdownDisplay = ({ day, hour, minute, second }) => {
+const CountdownDisplay = ({ time: { day, hour, minute, second } }) => {
   return (
     <div className="time-container">
       <div className="countdown-time">

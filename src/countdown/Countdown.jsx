@@ -16,10 +16,12 @@ const Countdown = () => {
   const duration =
     difference >= 0 ? calculateDuration(difference) : [0, 0, 0, 0];
 
-  const [day, changeDay] = useState(duration[0]);
-  const [hour, changeHour] = useState(duration[1]);
-  const [minute, changeMinute] = useState(duration[2]);
-  const [second, changeSecond] = useState(duration[3]);
+  const [timeRemaining, changeTimeRemaining] = useState({
+    day: duration[0],
+    hour: duration[1],
+    minute: duration[2],
+    second: duration[3]
+  });
 
   if (difference > 0) {
     const oneSecond = 1000;
@@ -27,22 +29,19 @@ const Countdown = () => {
     const newDuration = calculateDuration(newDifference);
 
     setTimeout(() => {
-      changeDay(newDuration[0]);
-      changeHour(newDuration[1]);
-      changeMinute(newDuration[2]);
-      changeSecond(newDuration[3]);
+      changeTimeRemaining({
+        day: newDuration[0],
+        hour: newDuration[1],
+        minute: newDuration[2],
+        second: newDuration[3]
+      });
     }, 1000);
   }
 
   return (
     <div className="countdown">
       {difference >= 0 ? (
-        <CountdownDisplay
-          day={day}
-          hour={hour}
-          minute={minute}
-          second={second}
-        />
+        <CountdownDisplay time={timeRemaining} />
       ) : (
         <div className="countdown-over">The wait is over!</div>
       )}
