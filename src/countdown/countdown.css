@@ -33,15 +33,31 @@
   margin: 0;
 }
 
-.countdown-time span {
-  font-size: 50px;
-  padding: 10px;
-  color: white;
-}
-
 .countdown-image {
   background-image: url("./tony-coffee.jpeg");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
+}
+
+@media only screen and (max-width: 500px) {
+  .countdown {
+    display: flex;
+  }
+  .countdown div {
+    padding: 10px;
+    font-size: 18px;
+    font-weight: bold;
+  }
+  .countdown-image {
+    display: none;
+  }
+  .time-container {
+    width: 100%;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.9)),
+      url("./tony-coffee.jpeg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
 }
