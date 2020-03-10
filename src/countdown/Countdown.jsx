@@ -11,7 +11,7 @@ const Countdown = () => {
       .split(" ");
 
   const currentTime = DateTime.local();
-  const returnTime = DateTime.fromISO("2020-03-26T12:05:00");
+  const returnTime = DateTime.fromISO("2020-03-26T00:05:00");
   const difference = returnTime - currentTime;
   const duration =
     difference >= 0 ? calculateDuration(difference) : [0, 0, 0, 0];
