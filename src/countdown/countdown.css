@@ -1,18 +1,47 @@
 .countdown {
   width: 100vw;
   height: 100vh;
+  background-color: black;
+  display: grid;
+  grid-template-columns: 50% 50%;
+}
+
+.time-container {
   display: flex;
-  flex-direction: column;
   justify-content: center;
   align-items: center;
+  flex-direction: column;
 }
 
 .countdown-title {
   font-size: 50px;
   margin-bottom: 25px;
+  color: white;
+}
+
+.countdown-time {
+  display: flex;
+  color: white;
+}
+
+.countdown-time div {
+  padding: 20px;
+  font-size: 40px;
+}
+
+.countdown-time p {
+  margin: 0;
 }
 
 .countdown-time span {
   font-size: 50px;
   padding: 10px;
+  color: white;
+}
+
+.countdown-image {
+  background-image: url("./tony-coffee.jpeg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
 }

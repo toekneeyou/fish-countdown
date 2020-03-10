@@ -2,8 +2,10 @@ import React, { useState, useEffect } from "react";
 import { DateTime, Duration } from "luxon";
 
 import "./countdown.css";
+import picture from "./tony-coffee.jpeg";
 
 const Countdown = () => {
+  console.log(picture);
   const [day, changeDay] = useState(null);
   const [hour, changeHour] = useState(null);
   const [minute, changeMinute] = useState(null);
@@ -30,13 +32,26 @@ const Countdown = () => {
 
   return (
     <div className="countdown">
-      <div className="countdown-title">Days until Tony is back</div>
-      <div className="countdown-time">
-        <span>{day} days</span>
-        <span>{hour} hours</span>
-        <span>{minute} mins</span>
-        <span>{second} secs</span>
+      <div className="time-container">
+        {/* <div className="countdown-title">
+          Days until <b>Tony</b> is back
+        </div> */}
+        <div className="countdown-time">
+          <div>
+            <p>{day}</p> days
+          </div>
+          <div>
+            <p>{hour}</p> hours
+          </div>
+          <div>
+            <p>{minute}</p> mins
+          </div>
+          <div>
+            <p>{second}</p> secs
+          </div>
+        </div>
       </div>
+      <div className="countdown-image"></div>
     </div>
   );
 };
