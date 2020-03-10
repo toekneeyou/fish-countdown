@@ -13,9 +13,8 @@
   flex-direction: column;
 }
 
-.countdown-title {
-  font-size: 50px;
-  margin-bottom: 25px;
+.countdown-over {
+  font-size: 40px;
   color: white;
 }
 

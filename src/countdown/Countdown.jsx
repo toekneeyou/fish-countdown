@@ -13,27 +13,39 @@ const Countdown = () => {
   const currentTime = DateTime.local();
   const returnTime = DateTime.fromISO("2020-03-26T12:05:00");
   const difference = returnTime - currentTime;
-  const duration = calculateDuration(difference);
+  const duration =
+    difference >= 0 ? calculateDuration(difference) : [0, 0, 0, 0];
 
   const [day, changeDay] = useState(duration[0]);
   const [hour, changeHour] = useState(duration[1]);
   const [minute, changeMinute] = useState(duration[2]);
   const [second, changeSecond] = useState(duration[3]);
 
-  const oneSecond = 1000;
-  const newDifference = difference - oneSecond;
-  const newDuration = calculateDuration(newDifference);
+  if (difference > 0) {
+    const oneSecond = 1000;
+    const newDifference = difference - oneSecond;
+    const newDuration = calculateDuration(newDifference);
 
-  setTimeout(() => {
-    changeDay(newDuration[0]);
-    changeHour(newDuration[1]);
-    changeMinute(newDuration[2]);
-    changeSecond(newDuration[3]);
-  }, 1000);
+    setTimeout(() => {
+      changeDay(newDuration[0]);
+      changeHour(newDuration[1]);
+      changeMinute(newDuration[2]);
+      changeSecond(newDuration[3]);
+    }, 1000);
+  }
 
   return (
     <div className="countdown">
-      <CountdownDisplay day={day} hour={hour} minute={minute} second={second} />
+      {difference >= 0 ? (
+        <CountdownDisplay
+          day={day}
+          hour={hour}
+          minute={minute}
+          second={second}
+        />
+      ) : (
+        <div className="countdown-over">The wait is over!</div>
+      )}
       <div className="countdown-image"></div>
     </div>
   );
