@@ -1,33 +1,35 @@
-import React, { useState, useEffect } from "react";
+import React, { useState } from "react";
 import { DateTime, Duration } from "luxon";
 
 import "./countdown.css";
 import CountdownDisplay from "./CountdownDisplay";
 
 const Countdown = () => {
-  const [day, changeDay] = useState(null);
-  const [hour, changeHour] = useState(null);
-  const [minute, changeMinute] = useState(null);
-  const [second, changeSecond] = useState(null);
+  const calculateDuration = time =>
+    Duration.fromObject({ milliseconds: time })
+      .toFormat("d h m s")
+      .split(" ");
 
   const currentTime = DateTime.local();
   const returnTime = DateTime.fromISO("2020-03-26T12:05:00");
-
   const difference = returnTime - currentTime;
+  const duration = calculateDuration(difference);
 
-  const duration = Duration.fromObject({ milliseconds: difference })
-    .toFormat("d h m s")
-    .split(" ");
+  const [day, changeDay] = useState(duration[0]);
+  const [hour, changeHour] = useState(duration[1]);
+  const [minute, changeMinute] = useState(duration[2]);
+  const [second, changeSecond] = useState(duration[3]);
 
-  useEffect(() => {
-    const oneSecond = 1000;
-    setTimeout(() => {
-      changeDay(duration[0]);
-      changeHour(duration[1]);
-      changeMinute(duration[2]);
-      changeSecond(duration[3]);
-    }, oneSecond);
-  });
+  const oneSecond = 1000;
+  const newDifference = difference - oneSecond;
+  const newDuration = calculateDuration(newDifference);
+
+  setTimeout(() => {
+    changeDay(newDuration[0]);
+    changeHour(newDuration[1]);
+    changeMinute(newDuration[2]);
+    changeSecond(newDuration[3]);
+  }, 1000);
 
   return (
     <div className="countdown">
