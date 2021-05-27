@@ -13,6 +13,13 @@
   flex-direction: column;
 }
 
+.time-container h2 {
+  color: white;
+  margin: 0;
+  padding: 10px;
+  border: 1px solid whitesmoke;
+}
+
 .countdown-over {
   font-size: 40px;
   color: white;
@@ -33,13 +40,13 @@
 }
 
 .countdown-image {
-  background-image: url("./tony-coffee.jpeg");
+  background-image: url("https://cdn.vox-cdn.com/thumbor/RIF2D6fpLOMKj-CKrUCQrnHWwJI=/92x0:1512x1065/1200x900/filters:focal(92x0:1512x1065)/cdn.vox-cdn.com/uploads/chorus_image/image/49842307/2016-02-29-hanjip-004.0.0.0.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
 }
 
-@media only screen and (max-width: 500px) {
+@media only screen and (max-width: 900px) {
   .countdown {
     display: flex;
   }
@@ -54,7 +61,7 @@
   .time-container {
     width: 100%;
     background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.9)),
-      url("./tony-coffee.jpeg");
+      url("https://cdn.vox-cdn.com/thumbor/RIF2D6fpLOMKj-CKrUCQrnHWwJI=/92x0:1512x1065/1200x900/filters:focal(92x0:1512x1065)/cdn.vox-cdn.com/uploads/chorus_image/image/49842307/2016-02-29-hanjip-004.0.0.0.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
