@@ -1,23 +1,22 @@
 {
   "files": {
-    "main.css": "/fish-countdown/static/css/main.ea950b93.chunk.css",
-    "main.js": "/fish-countdown/static/js/main.c8b772cc.chunk.js",
-    "main.js.map": "/fish-countdown/static/js/main.c8b772cc.chunk.js.map",
+    "main.css": "/fish-countdown/static/css/main.9be647ae.chunk.css",
+    "main.js": "/fish-countdown/static/js/main.61cd6618.chunk.js",
+    "main.js.map": "/fish-countdown/static/js/main.61cd6618.chunk.js.map",
     "runtime-main.js": "/fish-countdown/static/js/runtime-main.affa47a4.js",
     "runtime-main.js.map": "/fish-countdown/static/js/runtime-main.affa47a4.js.map",
     "static/js/2.b45ee002.chunk.js": "/fish-countdown/static/js/2.b45ee002.chunk.js",
     "static/js/2.b45ee002.chunk.js.map": "/fish-countdown/static/js/2.b45ee002.chunk.js.map",
     "index.html": "/fish-countdown/index.html",
-    "precache-manifest.60640d299b9d4193135ef2859d65b500.js": "/fish-countdown/precache-manifest.60640d299b9d4193135ef2859d65b500.js",
+    "precache-manifest.d0715089a9adecd2c795249c40956281.js": "/fish-countdown/precache-manifest.d0715089a9adecd2c795249c40956281.js",
     "service-worker.js": "/fish-countdown/service-worker.js",
-    "static/css/main.ea950b93.chunk.css.map": "/fish-countdown/static/css/main.ea950b93.chunk.css.map",
-    "static/js/2.b45ee002.chunk.js.LICENSE.txt": "/fish-countdown/static/js/2.b45ee002.chunk.js.LICENSE.txt",
-    "static/media/countdown.css": "/fish-countdown/static/media/tony-coffee.57593256.jpeg"
+    "static/css/main.9be647ae.chunk.css.map": "/fish-countdown/static/css/main.9be647ae.chunk.css.map",
+    "static/js/2.b45ee002.chunk.js.LICENSE.txt": "/fish-countdown/static/js/2.b45ee002.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.affa47a4.js",
     "static/js/2.b45ee002.chunk.js",
-    "static/css/main.ea950b93.chunk.css",
-    "static/js/main.c8b772cc.chunk.js"
+    "static/css/main.9be647ae.chunk.css",
+    "static/js/main.61cd6618.chunk.js"
   ]
 }
