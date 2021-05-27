@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/fish-countdown/static/css/main.9be647ae.chunk.css",
-    "main.js": "/fish-countdown/static/js/main.61cd6618.chunk.js",
-    "main.js.map": "/fish-countdown/static/js/main.61cd6618.chunk.js.map",
-    "runtime-main.js": "/fish-countdown/static/js/runtime-main.affa47a4.js",
-    "runtime-main.js.map": "/fish-countdown/static/js/runtime-main.affa47a4.js.map",
-    "static/js/2.b45ee002.chunk.js": "/fish-countdown/static/js/2.b45ee002.chunk.js",
-    "static/js/2.b45ee002.chunk.js.map": "/fish-countdown/static/js/2.b45ee002.chunk.js.map",
-    "index.html": "/fish-countdown/index.html",
-    "precache-manifest.d0715089a9adecd2c795249c40956281.js": "/fish-countdown/precache-manifest.d0715089a9adecd2c795249c40956281.js",
-    "service-worker.js": "/fish-countdown/service-worker.js",
-    "static/css/main.9be647ae.chunk.css.map": "/fish-countdown/static/css/main.9be647ae.chunk.css.map",
-    "static/js/2.b45ee002.chunk.js.LICENSE.txt": "/fish-countdown/static/js/2.b45ee002.chunk.js.LICENSE.txt"
+    "main.css": "/tony-countdown/static/css/main.9be647ae.chunk.css",
+    "main.js": "/tony-countdown/static/js/main.ddf4e493.chunk.js",
+    "main.js.map": "/tony-countdown/static/js/main.ddf4e493.chunk.js.map",
+    "runtime-main.js": "/tony-countdown/static/js/runtime-main.b6cb76a1.js",
+    "runtime-main.js.map": "/tony-countdown/static/js/runtime-main.b6cb76a1.js.map",
+    "static/js/2.cc7cbb1f.chunk.js": "/tony-countdown/static/js/2.cc7cbb1f.chunk.js",
+    "static/js/2.cc7cbb1f.chunk.js.map": "/tony-countdown/static/js/2.cc7cbb1f.chunk.js.map",
+    "index.html": "/tony-countdown/index.html",
+    "precache-manifest.62022fc2b6ea16f571d5c5970a8fa861.js": "/tony-countdown/precache-manifest.62022fc2b6ea16f571d5c5970a8fa861.js",
+    "service-worker.js": "/tony-countdown/service-worker.js",
+    "static/css/main.9be647ae.chunk.css.map": "/tony-countdown/static/css/main.9be647ae.chunk.css.map",
+    "static/js/2.cc7cbb1f.chunk.js.LICENSE.txt": "/tony-countdown/static/js/2.cc7cbb1f.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.affa47a4.js",
-    "static/js/2.b45ee002.chunk.js",
+    "static/js/runtime-main.b6cb76a1.js",
+    "static/js/2.cc7cbb1f.chunk.js",
     "static/css/main.9be647ae.chunk.css",
-    "static/js/main.61cd6618.chunk.js"
+    "static/js/main.ddf4e493.chunk.js"
   ]
 }
